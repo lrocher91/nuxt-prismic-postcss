@@ -87,7 +87,7 @@
       <div class="w-full" style="height: 500px" ref="map"></div>
         <div class="contact-content"
           v-for="post in posts[12]" :key="post.id">
-          <h2 id="contact" class="my-3 font-bold text-4xl text-black mt-10 block text-left">Contact</h2>
+          <h2 id="contact" class="my-3 font-bold text-4xl text-white mt-10 block text-left">Contact</h2>
           <div class="bg-white rounded shadow p-3"
             v-html="post.content.rendered"></div>
           <a class="bg-red-400 text-white p-3 font-bold rounded px-6 mt-4 block text-center"
