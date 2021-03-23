@@ -124,6 +124,12 @@
         }
         this.posts[catID].push(result);
       })
+      console.log(this.posts)
+    },
+    created() {
+      this.$nuxt.$on('click', (data) => {
+        console.log(data);
+      })
     },
     mounted(){
         const mapOptions = {

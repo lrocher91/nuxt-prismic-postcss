@@ -36,7 +36,7 @@
       <div class="grid grid-flow-row lg:grid-flow-col gap-3 mt-10"
         id="who">
         <div v-for="post in posts[11]" :key="post.id">
-          <h2 class="my-3 font-bold text-4xl text-black">{{ post.title.rendered }}</h2>
+          <h2 class="my-3 font-bold text-4xl text-white">{{ post.title.rendered }}</h2>
           <div class="flex items-center shadow rounded overflow-hidden bg-gray-100 mt-2">
             <div class="p-3" v-html="post.content.rendered"></div>
           </div>
@@ -123,6 +123,12 @@
           this.posts[catID] = [];
         }
         this.posts[catID].push(result);
+      })
+      console.log(this.posts)
+    },
+    created() {
+      this.$nuxt.$on('click', (data) => {
+        console.log(data);
       })
     },
     mounted(){

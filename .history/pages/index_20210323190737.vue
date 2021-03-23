@@ -125,6 +125,10 @@
         this.posts[catID].push(result);
       })
     },
+    created() {
+      this.$nuxt.$on('click', (data) => {
+      })
+    },
     mounted(){
         const mapOptions = {
             zoom: 18,
