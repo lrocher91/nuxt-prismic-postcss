@@ -1,0 +1,29 @@
+<template>
+  <div class="container">
+    <div class="flex items-center shadow rounded overflow-hidden bg-gray-100"
+      v-for="post in posts" :key="post.id">
+      <h2>{{ post.title.rendered }}</h2>
+      <div class="w-1/3">
+        <!-- <img src="/arnaud.webp" alt="Arnaud" /> -->
+      </div>
+      <div class="w-2/3 lg:p-5"
+        v-html="post.content.rendered">
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {
+        posts: []
+      }
+    },
+    async fetch() {
+      this.posts = await fetch(
+        'https://arnaudgay.re//wp-json/wp/v2/posts?categories=7&_embed'
+      ).then(res => res.json())
+    }
+  }
+</script>
