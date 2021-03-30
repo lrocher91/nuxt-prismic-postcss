@@ -1,0 +1,59 @@
+{
+  "id": "footer_slice",
+  "type": "SharedSlice",
+  "name": "FooterSlice",
+  "description": "FooterSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FooterSlice",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "mail": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "mail",
+            "placeholder": ""
+          }
+        },
+        "cta": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "cta",
+            "placeholder": ""
+          }
+        },
+        "location": {
+          "type": "GeoPoint",
+          "config": {
+            "label": "",
+            "id": "location",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

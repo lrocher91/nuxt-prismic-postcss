@@ -1,0 +1,5 @@
+export { default as BannerSlice } from './BannerSlice'
+export { default as AboutSlice } from './AboutSlice'
+export { default as PresentationSlice } from './PresentationSlice'
+export { default as StageSlice } from './StageSlice'
+export { default as FooterSlice } from './FooterSlice'

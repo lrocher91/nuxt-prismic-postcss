@@ -1,0 +1,60 @@
+{
+  "BannerSlice": {
+    "primary": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "AboutSlice": {
+    "primary": {
+      "image": {
+        "content": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3"
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "PresentationSlice": {
+    "primary": {
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "items": {
+      "image": {
+        "content": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93"
+      }
+    }
+  },
+  "StageSlice": {
+    "primary": {},
+    "items": {}
+  },
+  "FooterSlice": {
+    "primary": {
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <slice-zone type="page" uid="homepage" />
+    <slice-zone type="page" :uid="$route.params.uid" />
   </section>
 </template>
 

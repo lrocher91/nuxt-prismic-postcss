@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="btn rounded-tl rounded-bl p-3 shadow z-20 bg-gray-300"
+        <button class="btn rounded-tl rounded-bl p-3 shadow z-20 bg-yellow-600 text-white border-b-2 border-white"
             @click="show = !show">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                 v-if="!show">
@@ -11,23 +11,19 @@
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
         </button>
-        <nav class="navigation z-10 w-full lg:w-1/2 bg-blue-400 shadow text-white flex items-center"
+        <nav class="navigation z-10 w-full lg:w-1/2 bg-white shadow flex items-center"
             v-if="show">
             <ul class="p-5">
-                <li class="text-lg uppercase font-bold mb-3">
+                <li class="text-2xl uppercase mb-4">
                     <nuxt-link :to="{ path: '/',hash:'#about'}">A propos</nuxt-link>
                 </li>
-                <li class="text-lg uppercase font-bold mb-3">
-                    <nuxt-link :to="{ path: '/',hash:'#who'}">Pour qui ?</nuxt-link>
+                <li class="text-2xl uppercase mb-4">
+                    <nuxt-link :to="{ path: '/',hash:'#presentation'}">Méthodologie</nuxt-link>
                 </li>
-                <li class="text-lg uppercase font-bold mb-3"
-                    @click="$nuxt.$emit('click', 'tools')">
-                    <nuxt-link :to="{ path: '/',hash:'#tools'}">Outils</nuxt-link>
+                <li class="text-2xl uppercase mb-4">
+                    <nuxt-link :to="{ path: '/',hash:'#stages'}">Stages</nuxt-link>
                 </li>
-                <li class="text-lg uppercase font-bold mb-3">
-                    <nuxt-link :to="{ path: '/',hash:'#stages'}">Ateliers et stages</nuxt-link>
-                </li>
-                <li class="text-lg uppercase font-bold">
+                <li class="text-2xl uppercase mb-4">
                     <nuxt-link :to="{ path: '/',hash:'#contact'}">Contact</nuxt-link>
                 </li>
             </ul>
@@ -35,7 +31,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     svg {
         width: 2rem;
     }
@@ -50,6 +46,13 @@
         top: 0;
         right: 0;
         bottom: 0;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:link, a:visited, a:hover, a:active {
+        color:black;
     }
     .navigation {
         position: fixed;

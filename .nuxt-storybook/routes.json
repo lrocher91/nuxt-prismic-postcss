@@ -1,0 +1,22 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/Users/louis/www/arnaudgay/.nuxt-storybook/prismic/pages/preview.vue",
+    "_name": "_14252206"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/louis/www/arnaudgay/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_24273fd1"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid",
+    "component": "/Users/louis/www/arnaudgay/pages/_uid.vue",
+    "chunkName": "pages/_uid",
+    "_name": "_9152e13c"
+  }
+]

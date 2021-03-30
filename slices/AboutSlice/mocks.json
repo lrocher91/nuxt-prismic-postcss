@@ -1,0 +1,30 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "AboutSlice",
+    "primary": {
+      "title": "disintermediate clicks-and-mortar e-commerce",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Sint irure aliquip reprehenderit amet sunt deserunt do officia nisi cillum labore.",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?w=900&h=500&fit=crop"
+      }
+    },
+    "items": [],
+    "slice_type": "about_slice"
+  }
+]

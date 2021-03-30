@@ -1,0 +1,27 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "FooterSlice",
+    "primary": {
+      "title": "expedite turn-key synergies",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Cupidatat amet ut proident ipsum voluptate cupidatat. Do voluptate ea reprehenderit tempor magna quis non eiusmod nisi. Ullamco adipisicing elit esse nisi consectetur magna consectetur dolore nostrud.",
+          "spans": []
+        }
+      ],
+      "mail": "extend bricks-and-clicks applications",
+      "cta": "enhance distributed functionalities",
+      "location": {
+        "latitude": 48.8583736,
+        "longitude": 2.2922926
+      }
+    },
+    "items": [],
+    "slice_type": "footer_slice"
+  }
+]

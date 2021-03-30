@@ -1,0 +1,112 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "StageSlice",
+    "primary": {
+      "title": "optimize back-end supply-chains",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Ex velit labore irure magna quis amet deserunt cupidatat esse tempor nisi nisi Lorem non ex.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "title": "generate bleeding-edge action-items",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Consequat fugiat exercitation sit velit cupidatat quis veniam cillum eu culpa cillum laborum enim aliquip eiusmod. Non qui deserunt ut est dolore Lorem culpa dolore ipsum ad dolor in ut laborum mollit.",
+            "spans": []
+          }
+        ],
+        "cta": "aggregate impactful schemas",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "title": "expedite real-time infrastructures",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Dolore velit aute in. Magna consectetur pariatur dolore ut minim amet deserunt amet duis non.",
+            "spans": []
+          }
+        ],
+        "cta": "evolve front-end e-markets",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "title": "strategize proactive convergence",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Cupidatat velit minim laborum qui et excepteur velit aute exercitation velit magna duis incididunt quis exercitation. Ad qui enim pariatur tempor ipsum anim enim proident nulla excepteur excepteur.",
+            "spans": []
+          }
+        ],
+        "cta": "facilitate extensible action-items",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "title": "morph leading-edge paradigms",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Irure dolor mollit reprehenderit irure consequat magna dolore cupidatat ullamco nulla irure ullamco sunt occaecat.",
+            "spans": []
+          }
+        ],
+        "cta": "synergize best-of-breed experiences",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "title": "transition bleeding-edge paradigms",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Lorem elit ullamco veniam occaecat reprehenderit reprehenderit exercitation ad elit aute laborum amet velit velit.",
+            "spans": []
+          }
+        ],
+        "cta": "streamline proactive mindshare",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "title": "harness real-time deliverables",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Consectetur occaecat ex id labore excepteur sit sunt duis velit deserunt in magna labore sunt. Magna fugiat proident proident tempor irure.",
+            "spans": []
+          }
+        ],
+        "cta": "incentivize leading-edge methodologies",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ],
+    "slice_type": "stage_slice"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "id": "presentation_slice",
+  "type": "SharedSlice",
+  "name": "PresentationSlice",
+  "description": "PresentationSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PresentationSlice",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "config": {
+            "label": "",
+            "placeholder": "Si vous êtes submergé par vos ...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "PresentationSlice",
+    "primary": {
+      "title": "incubate dot-com portals",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Magna aliquip occaecat occaecat enim officia eiusmod quis. Veniam non consectetur fugiat. Voluptate incididunt commodo elit esse Lorem mollit eu non officia esse velit amet officia.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "title": "drive front-end markets",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Officia qui amet sint anim incididunt in voluptate. Sint nulla reprehenderit officia commodo sint ex ex dolore tempor id amet. Ad proident Lorem eu.",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": "redefine transparent architectures",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Veniam nulla eu exercitation non deserunt.",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": "grow innovative partnerships",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Veniam consectetur duis sunt. Deserunt exercitation voluptate quis tempor reprehenderit. Fugiat magna proident occaecat sit consectetur minim mollit incididunt in laborum id sunt aliquip sit.",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": "mesh e-business channels",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Voluptate officia velit duis duis laborum dolor aliqua laborum tempor eiusmod reprehenderit et magna. Elit proident velit in sint cupidatat. Fugiat et ad laborum adipisicing labore ullamco quis anim.",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "title": "optimize killer relationships",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Fugiat veniam quis in.",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=900&h=500&fit=crop"
+        }
+      }
+    ],
+    "slice_type": "presentation_slice"
+  }
+]
