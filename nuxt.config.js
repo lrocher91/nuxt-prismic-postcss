@@ -51,12 +51,16 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [// https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxtjs/prismic'
+    '@nuxtjs/prismic',
+    '@nuxtjs/tailwindcss'
   ],
   prismic: {
     endpoint: 'https://arnaudgay.cdn.prismic.io/api/v2'
     /* see configuration for more */
 
+  },
+  tailwindcss: {
+    jit: true
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [["@nuxtjs/prismic", {
